@@ -1,0 +1,11 @@
+{
+  "name": "obsidian-vault-manager",
+  "description": "Obsidian vault management and Mermaid diagramming skills for Claude Code. Includes an intelligent note manager (Obi) for organizing, creating, and optimizing Obsidian notes with PKM best practices, plus a comprehensive Mermaid diagram guide covering 9 diagram types.",
+  "author": {
+    "name": "GeniusGogoing",
+    "url": "https://github.com/GeniusGogoing"
+  },
+  "homepage": "https://github.com/GeniusGogoing/obsidian-vault-manager-claude-plugin",
+  "repository": "https://github.com/GeniusGogoing/obsidian-vault-manager-claude-plugin",
+  "license": "MIT"
+}
