@@ -8,13 +8,11 @@ A Claude Code plugin that provides two powerful skills for knowledge management 
 ## Installation
 
 ```bash
-claude plugin install --from git@github.com:GeniusGogoing/obsidian-vault-manager-claude-plugin.git
-```
+# Step 1: Add the marketplace
+claude plugin marketplace add git@github.com:GeniusGogoing/obsidian-vault-manager-claude-plugin.git
 
-Or install from URL:
-
-```bash
-claude plugin install --from https://github.com/GeniusGogoing/obsidian-vault-manager-claude-plugin.git
+# Step 2: Install the plugin
+claude plugin install obsidian-vault-manager@obsidian-vault-manager-claude-plugin
 ```
 
 ## Skills
@@ -61,7 +59,11 @@ Includes detailed reference guides for each diagram type with syntax, examples, 
 ## Requirements
 
 - Claude Code CLI
-- For Obsidian Manager: [Obsidian MCP server](https://github.com/MarkusPfworker/obsidian-mcp) (recommended) or Obsidian CLI
+- Node.js (for Obsidian MCP server via npx)
+
+## MCP Server
+
+This plugin bundles the [mcpvault](https://www.npmjs.com/package/@bitbonsai/mcpvault) Obsidian MCP server, which provides direct vault access (read, write, search, tags, frontmatter, etc.) through the Model Context Protocol. The MCP server is automatically configured when the plugin is installed.
 
 ## License
 
